@@ -19,3 +19,20 @@ body {
     padding: 0;
 
 }
+.headerAll {
+    max-width: 100vw;
+    min-height: 40px;
+    background-color: chartreuse;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.head {
+
+    list-style: none;
+    cursor: pointer;
+}

@@ -73,3 +73,11 @@ body {
     color:black;
     height: 5px;
 }
+.CVLink{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    background-color: red;
+    border-radius: 10px;
+}
