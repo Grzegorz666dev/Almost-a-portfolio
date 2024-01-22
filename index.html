@@ -5,26 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
     <div class="bigBox">
 
         <Ul class="headerAll">
-            <li class="head">Start</li>
+            <li class="head">
+                <div class="hover-object">
+                    <p>Menu</p>
+                    <div class="menu">
+                        <a href="./components/doswiad.html" class="menua">Doświadczenie zawodowe</a>
+                        <a href="./components/Programowanie.html" class="menua">Programowanie</a>
+                        <a href="./components/gry.html" class="menua">Gry</a>
+                        <a href="./components/ksiazki.html" class="menua">Książki</a>
+                        <a href="./components/filmy.html" class="menua">Filmy</a>
+                    </div>
+            </li>
             <li class="head"></li>
             <li class="head"></li>
-            <li class="head">Aktualności</li>
-            <ul class="head" value="Kontakt">
-                <li class="mail"><a href="#">Kontakt</a></li>
-                <li class="mail"><a href="#">Kontakt</a></li>
-                <li class="mail"><a href="#">Kontakt</a></li>
-
-            </ul>
+            <li class="head">Info</li>
+            <li class="head">
+                <a class="mail">Kontakt</a>
+            </li>
         </Ul>
         <div class="infoPerson">
-            <p>
+            <a>
                 &nbsp;&nbsp; Witam was bardzo sedrecznie, mam na imię Grzegorz.
                 Na tej stronie dowiecie się trochę o mojej osobie,
                 moich doświadzeniach zawodowych i zainteresowaniach.
@@ -33,7 +40,7 @@
                 różnych dziedzinach. Natomiast teraz pora otworzyć
                 się na branżę IT i zaprząść swój umysł do pracy.
                 <br><br>
-                &nbsp;&nbsp; Na początku powoli, jak żółw ociężale, ruszyła maszyna
+                &nbsp;&nbsp; Na początku powoli jak żółw ociężale ruszyła maszyna
                 po szynach ospale. Ech, niech ta strona będzie przykładem
                 mojego pierwszego kodu. Faktycznie początki są trudne,
                 ale będę się rozkręcał i co jakiś czas chwalił się
@@ -41,35 +48,42 @@
                 Więcej informacji w odnośnikach
 
 
-            </p>
+            </a>
         </div>
         <div>
-            <img class="foto" id="ja" src="./img/ja.jpg" alt="men">
+            <img class="foto" id="ja" src="/img/ja.jpg" alt="men">
         </div>
 
         <div>
             <h1>Doświadczenie zawodowe</h1>
 
-            <p>&nbsp;&nbsp;Od 20-ego roku życia ciężko pracowałem w różnych zawodach.
+            <a>&nbsp;&nbsp;Od 20-ego roku życia ciężko pracowałem w różnych zawodach.
                 Na start praca dorywcza, więc nie ma się czym chwalić. Natomiast
-                gdy w wieku 25 lat zdałem prawojazdy C+E i zaczeła się moja wielka
+                gdy w wieku 25 lat zdałem prawojazdy C+E zaczeła się moja wielka
                 przygoda. Zostałem zawodowym kierowcą wielkiej ciężarówki. Przez
                 prawie 12 lat spełniałem marzenie z dzieciństwa. <br>
                 &nbsp;&nbsp;W 2016 roku nastąpił zwrot akcji. Stalem się ambitnym
                 przedsiębiorcą prowadząc działalność gospodarczą. Przez 6 lat wykonałem
                 wiele projektów, montując okna, drzwi, fasady i rolety.<br>
                 &nbsp;&nbsp;I stało się, w 2023 roku postanowiłem zmienić co nie co.
-                Zaczynam kolejny, nowy etap mojej egzystencji. Czas pracę fizyczną zamienić
-                na pracę szarych komurek.<br><br><br>
-                &nbsp;&nbsp;
-                Moje <a class="CVLink" href="/files/CV.jpeg">CV</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a class="CVLink">Kursy i nauka programowania</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a class="CVLink">Przykładowe projekty</a>
-                <br><br>
-            </p>
+                Zaczynam kolejny, nowy etap mojej egzystencji.
+
+            </a>
         </div>
+        <h1>Programowanie</h1>
+
+        <div id="kursy">
+            <button class="button-ta">GIT</button>
+            <button class="button-ta">HTML</button>
+            <button class="button-ta">CSS</button>
+            <button class="button-ta">JAVA SCRIPT</button>
+            <button class="button-ta">REACT</button>
+            <button class="button-ta">TIME SCRIPT</button>
+
+
+        </div>
+
+
         <div>
             <h1>Zainteresowania</h1>
             <h2></h2>
@@ -83,15 +97,15 @@
         <section class="zainteresowania" id="firstInfo">
 
             <div class="first">
-                <img class="foto" id="halo" src="./img/halo.jpg" alt="soldier images">
+                <img class="foto" id="halo" src="/img/halo.jpg" alt="soldier">
             </div>
 
             <div class="first">
-                <img class="foto" id="agricultural tractor" src="./img/farming.jpg" alt="death images">
+                <img class="foto" id="agricultural tractor" src="/img/farming.jpg" alt="death">
             </div>
 
             <div class="first">
-                <img class="foto" src="./img/tank1.jpg" alt="tank images">
+                <img class="foto" src="/img/tank1.jpg" alt="bulding">
             </div>
 
 
@@ -103,15 +117,15 @@
         <section class="zainteresowania" id="secondInfo">
 
             <div class="first">
-                <img class="foto" id="dorsaj" src="./img/dorsaj.jpg" alt="book cover">
+                <img class="foto" id="dorsaj" src="/img/dorsaj.jpg" alt="book cover">
             </div>
 
             <div class="first">
-                <img class="foto" id="ksin" src="./img/ksin.jpg" alt="book cover">
+                <img class="foto" id="ksin" src="/img/ksin.jpg" alt="book cover">
             </div>
 
             <div class="first">
-                <img class="foto" id="stalker" src="./img/stalker.jpg" alt="book cover">
+                <img class="foto" id="stalker" src="/img/stalker.jpg" alt="book cover">
             </div>
 
 
@@ -123,15 +137,15 @@
         <section class="zainteresowania" id="thirdInfo">
 
             <div class="first">
-                <img class="foto" id="lord" src="./img/Lord.jpg" alt="heroes of the lord of the rings">
+                <img class="foto" id="lord" src="/img/Lord.jpg" alt="heroes of the lord of the rings">
             </div>
 
             <div class="first">
-                <img class="foto" id="star" src="./img/starTrek.jpg" alt="heroes of Star Trek">
+                <img class="foto" id="star" src="/img/starTrek.jpg" alt="heroes of Star Trek">
             </div>
 
             <div class="first">
-                <img class="foto" id="valerian" src="./img/valerian.jpg" alt="heroes of Valerian">
+                <img class="foto" id="valerian" src="/img/valerian.jpg" alt="heroes of Valerian">
             </div>
 
 
@@ -142,7 +156,7 @@
         </a>
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
