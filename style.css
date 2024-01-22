@@ -83,8 +83,7 @@ body {
   background-color: green;
 }
 
-/* a-------------------------------------------------------------- */
-/* Styl menu */
+
 .menu {
   display: none;
   position: absolute;
@@ -94,13 +93,13 @@ body {
   z-index: 1;
 }
 
-/* Styl obiektu, na którym pojawi się menu */
+
 .hover-object {
   position: relative;
   display: inline-block;
 }
 
-/* Styl linków w menu */
+
 .menu a {
   color: white;
   text-decoration: none;
@@ -112,7 +111,7 @@ body {
 .menu a:hover {
   background-color: #1b7e07;
 }
-/* Po najechaniu na obiekt - pokazanie menu */
+
 .hover-object:hover .menu {
   display: block;
 }
