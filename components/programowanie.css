@@ -13,13 +13,35 @@ body {
 
 .bigBoxProg {
   width: 600px;
-  height: 1000px;
+  height: auto;
   margin: 0 auto 0 auto;
   padding: 0;
 }
 h1 {
   color: white;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-decoration-line: none;
 }
+p {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  height: 20px;
+  width: 55px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+}
+p:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px blueviolet;
+}
+.button1 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%, 10%;
+}
+
 .entry {
   text-align: left;
   color: white;
