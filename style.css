@@ -33,43 +33,19 @@ body {
   cursor: pointer;
 }
 
-.zainteresowania {
-  margin: 60px auto 30px;
-
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 60px;
-}
-
-.first {
-  width: 33%;
-  height: 150px;
-}
-
-.foto {
-  border-radius: 25px;
-  width: 100%;
-  height: 100%;
-}
-
-.infoPerson {
-  padding-bottom: 30px;
-}
-.textA {
-  text-decoration: none;
-  color: white;
-}
 #stopka {
   color: black;
-  height: 5px;
+  height: 3px;
+}
+.stopka {
+  margin-top: 15px;
 }
 #kursy {
   width: 100%;
   height: 40px;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .button-ta {
   background-color: greenyellow;
@@ -82,8 +58,11 @@ body {
 .button-ta:hover {
   background-color: green;
 }
-
-
+.foto {
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+}
 .menu {
   display: none;
   position: absolute;
@@ -93,12 +72,10 @@ body {
   z-index: 1;
 }
 
-
 .hover-object {
   position: relative;
   display: inline-block;
 }
-
 
 .menu a {
   color: white;
