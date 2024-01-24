@@ -79,3 +79,10 @@ p:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px 10px red;
 }
+#kursy {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

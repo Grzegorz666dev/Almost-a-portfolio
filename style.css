@@ -35,18 +35,13 @@ body {
 
 #stopka {
   color: black;
-  height: 3px;
+  font-size: 10px;
 }
 .stopka {
   margin-top: 15px;
+  text-align: center;
 }
-#kursy {
-  width: 100%;
-  height: 40px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
+
 .button-ta {
   background-color: greenyellow;
   cursor: pointer;
@@ -91,4 +86,67 @@ body {
 
 .hover-object:hover .menu {
   display: block;
+}
+.windows {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5px;
+}
+.windowSmol {
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  min-height: 50px;
+  margin-right: 5px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  color: chartreuse;
+}
+#anime {
+  font-size: 15px;
+  animation: animation 1.7s infinite;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  text-align: center;
+  margin: 40% auto;
+}
+@keyframes animation {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 0 -0.83em 0 -0.4em #f34a53, 0 -0.83em 0 -0.42em #f34a53,
+      0 -0.83em 0 -0.44em #f34a53, 0 -0.83em 0 -0.46em #f34a53,
+      0 -0.83em 0 -0.477em #f34a53;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em #f34a53, 0 -0.83em 0 -0.42em #f34a53,
+      0 -0.83em 0 -0.44em #f34a53, 0 -0.83em 0 -0.46em #f34a53,
+      0 -0.83em 0 -0.477em #f34a53;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em #f34a53, -0.087em -0.825em 0 -0.42em #f34a53,
+      -0.173em -0.812em 0 -0.44em #f34a53, -0.256em -0.789em 0 -0.46em #f34a53,
+      -0.297em -0.775em 0 -0.477em #f34a53;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em #f34a53, -0.338em -0.758em 0 -0.42em #f34a53,
+      -0.555em -0.617em 0 -0.44em #f34a53, -0.671em -0.488em 0 -0.46em #f34a53,
+      -0.749em -0.34em 0 -0.477em #f34a53;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em #f34a53, -0.377em -0.74em 0 -0.42em #f34a53,
+      -0.645em -0.522em 0 -0.44em #f34a53, -0.775em -0.297em 0 -0.46em #f34a53,
+      -0.82em -0.09em 0 -0.477em #f34a53;
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 -0.83em 0 -0.4em #f34a53, 0 -0.83em 0 -0.42em #f34a53,
+      0 -0.83em 0 -0.44em #f34a53, 0 -0.83em 0 -0.46em #f34a53,
+      0 -0.83em 0 -0.477em #f34a53;
+  }
 }
