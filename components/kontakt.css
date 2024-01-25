@@ -1,0 +1,20 @@
+:root {
+  --blue: rgb(67, 67, 243);
+  --dark: rgb(54, 6, 54);
+  --red: rgb(160, 14, 14);
+}
+
+body {
+  display: flex;
+  background: linear-gradient(var(--dark), var(--blue), var(--red));
+  background-repeat: no-repeat;
+}
+
+.bigBoxContact {
+  width: 600px;
+  height: 1000px;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  color: white;
+}
+

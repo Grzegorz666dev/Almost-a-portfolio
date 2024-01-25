@@ -42,13 +42,7 @@ body {
   text-align: center;
 }
 
-.button-ta {
-  background-color: greenyellow;
-  cursor: pointer;
-  color: white;
-  font-size: 24px;
-  border-radius: 15px;
-}
+
 
 .button-ta:hover {
   background-color: green;
@@ -82,6 +76,10 @@ body {
 }
 .menu a:hover {
   background-color: #1b7e07;
+}
+.mail {
+  color: white;
+  text-decoration: none;
 }
 
 .hover-object:hover .menu {

@@ -25,6 +25,24 @@ body {
   justify-content: space-around;
   margin-top: 60px;
 }
+.text1 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  height: 20px;
+  width: 55px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  text-align: center;
+}
+p:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px blueviolet;
+}
 
 .first {
   width: 33%;
@@ -43,4 +61,10 @@ body {
 .textA {
   text-decoration: none;
   color: white;
+}
+.stopka {
+  font-size: 10px;
+}
+.backButton {
+  text-decoration: none;
 }

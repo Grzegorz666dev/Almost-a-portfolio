@@ -17,3 +17,30 @@ body {
   padding: 0;
   color: white;
 }
+.text1 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.text2 {
+  margin-top: 50px;
+}
+.button {
+  margin-top: 25px;
+}
+.backButton {
+  text-decoration: none;
+}
+p {
+  height: 20px;
+  width: 55px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  text-align: center;
+}
+p:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px blueviolet;
+}

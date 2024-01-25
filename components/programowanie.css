@@ -41,6 +41,9 @@ p:hover {
   display: grid;
   grid-template-columns: 30% 30% 30%, 10%;
 }
+.backButton {
+  text-decoration: none;
+}
 
 .entry {
   text-align: left;
@@ -85,4 +88,10 @@ p:hover {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  background: linear-gradient(rgb(67, 67, 243), blue, red);
+}
+.button-ta {
+  background: linear-gradient(rgb(67, 67, 243), blue, red);
+  margin: 0;
+  border: 0;
 }
