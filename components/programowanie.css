@@ -17,6 +17,15 @@ body {
   margin: 0 auto 0 auto;
   padding: 0;
 }
+#timer {
+  display: flex;
+  justify-content: end;
+  color: aqua;
+}
+.text1 {
+  display: flex;
+  justify-content: space-between;
+}
 h1 {
   color: white;
   grid-column-start: 3;
@@ -32,6 +41,7 @@ p {
   margin-left: 50px;
   background-color: cornflowerblue;
   border-radius: 20px;
+  text-align: center;
 }
 p:hover {
   cursor: pointer;
@@ -44,7 +54,9 @@ p:hover {
 .backButton {
   text-decoration: none;
 }
-
+.button {
+  margin-top: 25px;
+}
 .entry {
   text-align: left;
   color: white;

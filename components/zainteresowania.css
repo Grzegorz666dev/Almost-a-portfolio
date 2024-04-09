@@ -16,6 +16,11 @@ body {
   margin: 0 auto 0 auto;
   padding: 0;
 }
+#timer {
+  display: flex;
+  justify-content: end;
+  color: aqua;
+}
 .zainteresowania {
   margin: 60px auto 30px;
 

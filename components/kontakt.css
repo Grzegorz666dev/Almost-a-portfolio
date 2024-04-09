@@ -22,3 +22,38 @@ body {
   justify-content: end;
   color: aqua;
 }
+.text1 {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  color: white;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-decoration-line: none;
+}
+p {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  height: 20px;
+  width: 55px;
+  margin-top: 10px;
+  margin-left: 50px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  text-align: center;
+}
+p:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 5px blueviolet;
+}
+.button1 {
+  display: grid;
+  grid-template-columns: 30% 30% 30%, 10%;
+}
+.backButton {
+  text-decoration: none;
+}
+.button {
+  margin-top: 25px;
+}
