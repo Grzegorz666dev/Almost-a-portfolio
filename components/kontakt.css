@@ -29,11 +29,10 @@ body {
 }
 h1 {
   color: white;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  font-style: oblique;
   text-decoration-line: none;
 }
-p {
+#pButton {
   grid-column-start: 4;
   grid-column-end: 5;
   height: 20px;
@@ -44,7 +43,7 @@ p {
   border-radius: 20px;
   text-align: center;
 }
-p:hover {
+#pButton:hover {
   cursor: pointer;
   box-shadow: 0 0 5px 5px blueviolet;
 }
@@ -58,13 +57,25 @@ p:hover {
 .button {
   margin-top: 25px;
 }
+#infoMesage {
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+#infoP {
+  color: rgb(204, 168, 238);
+  font-style: oblique;
+}
+
 /* ///////////////////////// */
 
 #messageForm {
   margin: 20px;
   padding: 20px;
   width: 300px;
-  margin-top: 80%;
+  margin-top: 60%;
 }
 #messageForm textarea {
   width: 100%;
