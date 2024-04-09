@@ -17,6 +17,11 @@ body {
   padding: 0;
   color: white;
 }
+#timer {
+  display: flex;
+  justify-content: end;
+  color: aqua;
+}
 .text1 {
   color: white;
   display: flex;

@@ -18,7 +18,11 @@ body {
   padding: 0;
   color: white;
 }
-
+#timer {
+  display: flex;
+  justify-content: end;
+  color: aqua;
+}
 .headerAll {
   max-width: 100vw;
   min-height: 40px;

@@ -17,3 +17,8 @@ body {
   padding: 0;
   color: white;
 }
+#timer {
+  display: flex;
+  justify-content: end;
+  color: aqua;
+}
