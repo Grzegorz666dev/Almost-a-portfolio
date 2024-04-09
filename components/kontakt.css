@@ -6,13 +6,14 @@
 
 body {
   display: flex;
-  background: linear-gradient(var(--dark), var(--blue), var(--red));
-  background-repeat: no-repeat;
 }
 
 .bigBoxContact {
+  background-image: url(../img/my.jpg);
+  background-repeat: no-repeat;
+  background-size: 700px 940px;
   width: 600px;
-  height: 940px;
+  min-height: 940px;
   margin: 0 auto 0 auto;
   padding: 0;
   color: white;
@@ -24,7 +25,7 @@ body {
 }
 .text1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 h1 {
   color: white;
@@ -56,4 +57,26 @@ p:hover {
 }
 .button {
   margin-top: 25px;
+}
+/* ///////////////////////// */
+
+#messageForm {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  margin-top: 80%;
+}
+#messageForm textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+#messageForm button {
+  width: 100%;
+}
+#savedMessage {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
 }

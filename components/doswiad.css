@@ -12,7 +12,7 @@ body {
 
 .bigBoxDos {
   width: 600px;
-  height: 1000px;
+  min-height: 940px;
   margin: 0 auto 0 auto;
   padding: 0;
   color: white;

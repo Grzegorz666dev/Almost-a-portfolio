@@ -17,4 +17,3 @@ function zegarek() {
 
     setTimeout("zegarek()", 1000);
 }
-console.log(zegarek);
