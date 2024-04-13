@@ -6,13 +6,12 @@
 
 body {
   display: flex;
-  background-color: black;
+  background-image: url(../img/my.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100%;
 }
 
 .bigBoxContact {
-  background-image: url(../img/my.jpg);
-  background-repeat: no-repeat;
-  background-size: 700px 940px;
   width: 600px;
   min-height: 940px;
   margin: 0 auto 0 auto;
@@ -38,11 +37,13 @@ h1 {
   grid-column-start: 4;
   grid-column-end: 5;
   height: 20px;
-  width: 55px;
+  width: 60px;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 60px;
   background-color: cornflowerblue;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
 }
 #pButton:hover {
   cursor: pointer;
@@ -98,8 +99,7 @@ h1 {
   border: 1px solid #ccc;
   width: 300px;
 }
-#image {
-}
+
 #image:hover {
   cursor: pointer;
 }
