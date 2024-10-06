@@ -1,7 +1,7 @@
 :root {
-  --blue: rgb(67, 67, 243);
-  --dark: rgb(54, 6, 54);
-  --red: rgb(160, 14, 14);
+  --blue: rgb(49, 49, 128);
+  --dark: rgb(250, 248, 250);
+  --red: rgb(14, 12, 12);
 }
 
 body {
@@ -16,17 +16,17 @@ body {
   min-height: 940px;
   margin: 0 auto 0 auto;
   padding: 0;
-  color: white;
+  color: black;
 }
 #timer {
   display: flex;
   justify-content: end;
-  color: aqua;
+  color: rgb(8, 36, 36);
 }
 .headerAll {
   max-width: 100vw;
   min-height: 40px;
-  background-color: chartreuse;
+  background-color: rgb(137, 150, 124);
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -49,17 +49,37 @@ body {
 }
 
 .button-ta:hover {
-  background-color: green;
+  background-color: rgb(137, 150, 124);
+}
+.infoPersonMy {
+  color: black;
 }
 .foto {
   border-radius: 25px;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: end;
+  background-image: url("./img/istockphoto-1322519736-612x612.jpg");
 }
+
+#ja {
+  height: 70%;
+  width: 30%;
+  border-radius: 15%;
+  margin-bottom: 10px;
+  transform: rotate(0deg);
+  transition: transform 0.5s ease-in-out;
+  margin-right: 30px;
+}
+#ja:hover {
+  transform: rotate(360deg);
+}
+
 .menu {
   display: none;
   position: absolute;
-  background-color: #34d114;
+  background-color: rgb(137, 150, 124);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   padding: 10px;
   z-index: 1;
@@ -71,7 +91,7 @@ body {
 }
 
 .menu a {
-  color: white;
+  color: black;
   text-decoration: none;
   display: block;
   font-size: 15px;
@@ -79,10 +99,10 @@ body {
   border-radius: 15px;
 }
 .menu a:hover {
-  background-color: #1b7e07;
+  background-color: rgb(137, 150, 124);
 }
 .mail {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
